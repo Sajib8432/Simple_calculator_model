@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+h2{
+    text-align: center;
+    color: red;
+    background: black;
+    line-height: 80px;
+    font-size: 180%;
+}
+.wrapper{
+    width: 600px;
+    margin: 0 auto;
+}
+.output{
+    background: black;
+    height: 80px;
+    width: 80%;
+    margin: 10px 10% 0 10%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.output #output{
+    width: 70%;
+    margin: 30px 15%;
+    height: 50px;
+    border: 1px solid red;
+    border-radius: 10px;
+
+    font-size: 180%;
+    padding-left: 10px;
+}
+.table{
+    background-color: black;
+    width: 80%;
+    margin: 0 10%;
+    text-align: center;    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.table table{
+    margin: 0 auto;
+    padding: 20px;
+}
+.table table button{
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+
+    color: black;
+    font-size: 150%;
+}
+
+
